@@ -10,7 +10,7 @@ npm install -g bower
 ```
 After cloning the repository, install dependencies
 ```sh
-cd <project folder>/tcse2016
+cd <project folder>/tcse2017
 npm install
 bower install
 ```
