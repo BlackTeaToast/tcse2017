@@ -24,7 +24,7 @@ Server is located at http://localhost:9000.
 - Reload page automatically when files are changed.
 
 ## Build
-Generate website in `/build` directory
+Generate website in `/dist` directory
 ```sh
 npm run release
 ```
