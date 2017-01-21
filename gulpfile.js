@@ -187,7 +187,7 @@ gulp.task('criticalcss', function (cb) {
   });
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['lint', 'html', 'file', 'images', 'fonts', 'extras'], () => {
   gulp.start('criticalcss');
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
